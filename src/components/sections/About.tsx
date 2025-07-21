@@ -49,8 +49,7 @@ const About: React.FC = () => {
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
           >
-            <p className="text-lg text-gray-700 dark:text-gray-300 leading-relaxed mb-6">
-             I’m a B.Tech student in Electronics and Communication Engineering at DAVIET, Jalandhar, with a strong interest in building impactful digital solutions. With practical experience in full-stack development using Python and Django, I’ve worked on multiple real-world projects involving responsive design, authentication systems, and database integration. I'm skilled in front-end technologies like HTML, CSS, and JavaScript, and I continuously strengthen my backend and database knowledge. Active in technical and leadership roles through NSS, NCC, and tech fests, I thrive in team settings, hackathons, and hands-on learning environments.
+            <p className="text-lg text-gray-700 dark:text-gray-300 leading-relaxed mb-6">B.Tech ECE student at DAVIET, Jalandhar with full-stack development experience in Python, Django, HTML, CSS, and JavaScript, and active in tech and leadership activities
             </p>
 
             <motion.div

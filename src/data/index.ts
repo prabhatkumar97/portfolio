@@ -8,8 +8,7 @@ import {
   SocialLink
 } from '../types';
 
-import mercerMettal from '../assets/mercerMettal.png'
-import wevdev from "../assets/webdevCertificate.png"
+import chatQna from "../assets/image.png";
 import resume from "../assets/resume.pdf"
 import onlineCarProject from "../assets/Online-car.png";
 import trendyToes from "../assets/trendy-toes.png";
@@ -44,6 +43,15 @@ export const projects: Project[] = [
     image: onlineCarProject,
     githubLink: 'https://github.com/prabhatkumar97/online-car-project',
     period: 'july 2023 - august 2023'
+  },
+  {
+    id: 2,
+    title: 'ChatQnA - web application',
+    description: 'A platform for asking and answering questions .',
+    technologies: ['HTML', 'CSS', 'JavaScript', 'Bootstrap', 'Python', 'Gemini API'],
+    image: chatQna,
+    githubLink: 'https://github.com/prabhatkumar97/chatQna',
+    period: 'Oct 2024 - Dec 2024'
   },
 ];
 

@@ -6,27 +6,24 @@ import GlassMorphicCard from '../ui/GlassMorphicCard';
 
 const experiences = [
   {
-    title: "Software Development Intern",
-    company: "Tech Innovators Inc.",
-    period: "Jun 2023 - Aug 2023",
+    title: "full Stack Python Developer Intern",
+    company: "Novem Controls Pvt Ltd. mohali, chandigarh",
+    period: "jan 2025 - jun 2025",
     location: "Remote",
     description: [
-      "Developed and maintained full-stack web applications using React and Node.js",
-      "Implemented responsive UI components and integrated RESTful APIs",
-      "Collaborated with senior developers on code reviews and feature implementations",
-      "Improved application performance by 30% through code optimization"
+     "Developed Django full-stack web apps using MVT. Built dynamic front-ends with HTML, CSS, Bootstrap,",
+     "and JavaScript. Implemented user authentication, forms, and CRUD. Deployed projects locally and practiced security."
     ]
   },
   {
-    title: "Web Development Intern",
-    company: "Digital Solutions Ltd.",
-    period: "Jan 2023 - Mar 2023",
-    location: "Bangalore, India",
+    title: "Python Programming Intern",
+    company: "ThinkNEXT Technologies Pvt Ltd. mohali, chandigarh",
+    period: "July 2023 - August 2023",
+    location: "Remote",
     description: [
-      "Built and deployed responsive websites using modern web technologies",
-      "Worked with a team of designers to implement pixel-perfect UI designs",
-      "Participated in daily stand-ups and sprint planning meetings",
-      "Contributed to the company's internal component library"
+"Gained hands-on experience with Python fundamentals, including data types, control structures, functions, and modules.",
+"Completed mini-projects and assignments focused on problem-solving and logical thinking.",
+"Developed basic command-line applications and scripts using Python."
     ]
   }
 ];

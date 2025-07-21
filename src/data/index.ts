@@ -11,8 +11,9 @@ import {
 import mercerMettal from '../assets/mercerMettal.png'
 import wevdev from "../assets/webdevCertificate.png"
 import resume from "../assets/resume.pdf"
-import dineserve from "../assets/dineserve.png"
-import rentUp from "../assets/rentUp.png"
+import onlineCarProject from "../assets/Online-car.png";
+import trendyToes from "../assets/trendy-toes.png";
+
 
 export const navItems: NavItem[] = [
   { label: 'Home', href: 'home' },
@@ -28,47 +29,29 @@ export const navItems: NavItem[] = [
 export const projects: Project[] = [
   {
     id: 1,
-    title: 'Rent UP',
-    description: 'A full-stack rental PG platform with secure booking system and advanced filters for location, budget, and amenities. Built real-time search and filtering for personalized rental PG bookings.',
-    technologies: ['Full Stack', 'React.js', 'Node.js', 'Express.js', 'MongoDB', 'Responsive Web Design'],
-    image: rentUp,
+    title: 'TrendyToes - web application',
+    description: 'A web application for booking trendy footwear.',
+    technologies: ['HTML', 'CSS', 'JavaScript', 'Bootstrap', 'Django', 'MySQL'],
+    image: trendyToes,
     githubLink: 'https://github.com/prabhatkumar97/trendyToes-WebApplication',
-    period: 'Sep 2024 – Nov 2024'
+    period: 'january 2025 – june 2025'
   },
   {
     id: 2,
-    title: 'Online car project',
-    description: 'Restaurant Reservation System with real-time menu browsing, pricing, and ordering for customers. Designed an admin dashboard for efficient reservation and order management.',
-    technologies: ['React', 'JavaScript', 'MongoDB', 'Node.js', 'Express.js'],
-    image: dineserve,
+    title: 'Online-car selling',
+    description: 'A platform for buying and selling cars online.',
+    technologies: ['HTML', 'CSS', 'JavaScript', 'Bootstrap', 'Django', 'MySQL'],
+    image: onlineCarProject,
     githubLink: 'https://github.com/prabhatkumar97/online-car-project',
-    period: 'Feb 2024 - May 2024'
+    period: 'july 2023 - august 2023'
   },
 ];
 
 
 export const certificates: Certificate[] = [
-  {
-    id: 1,
-    title: 'Certificate of Achievement',
-    issuer: 'Mercer Mettl',
-    date: 'October 2024',
-    link: '#'
-  },
-  {
-    id: 2,
-    title: 'Full-Stack Web Developer',
-    issuer: 'LinkedIn',
-    date: 'January 2023',
-    link: 'https://www.linkedin.com/learning/certificates/49cc2e3c877d7b5ae4477e1fda0d105c16b3cee2fdda4b1204d6aaef02111bf1'
-  },
-  {
-    id: 3,
-    title: 'Software Engineer Intern Certificate',
-    issuer: 'HackerRank',
-    date: '2023',
-    link: 'https://www.hackerrank.com/certificates/738a85a7b3a0'
-  }
+
+      
+   
 ];
 
 export const skills: Skill[] = [
@@ -88,19 +71,8 @@ export const skills: Skill[] = [
 
 export const achievements: Achievement[] = [
 
-  {
-    id: 4,
-    title: 'Top 50 Teams',
-    description: 'Secured Top 50 Teams in the VISIONARY Hackathon',
-    image: mercerMettal
-  },
-  {
-    id: 5,
-    title: 'Certified by Linkedin',
-    description: 'Completed LinkedIn’s Full Stack Development certification, showcasing expertise in building dynamic web applications.',
-    image:wevdev,
-    link:"https://www.linkedin.com/learning/certificates/49cc2e3c877d7b5ae4477e1fda0d105c16b3cee2fdda4b1204d6aaef02111bf1",
-  },
+ 
+  
 ];
 
 export const education: EducationItem[] = [
@@ -114,14 +86,14 @@ export const education: EducationItem[] = [
   {
     institution: 'SRK DAV Public School Suriya Jharkhand',
     degree: '12th with Science',
-    grade: '84.00%',
+    grade: '76.04%',
     period: '2017 – 2019',
     location: 'Suriya, Jharkhand'
   },
   {
     institution: 'SRK DAV Public School Suriya Jharkhand',
     degree: '10th',
-    grade: '84.00%',
+    grade: '76.06%',
     period: '2016 – 2017',
     location: 'Suriya, Jharkhand'
   },

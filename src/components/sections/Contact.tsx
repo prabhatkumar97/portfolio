@@ -146,7 +146,7 @@ const Contact: React.FC = () => {
                 Send Me a Message
               </h3>
               
-              <form onSubmit={handleSubmit}>
+              <form action="https://formspree.io/f/myzppbwg" method='POST'>
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-4">
                   <div>
                     <label htmlFor="name" className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">
@@ -232,17 +232,17 @@ const Contact: React.FC = () => {
                   )}
                 </button>
                 
-                {submitStatus === 'success' && (
+                {/* {submitStatus === 'success' && (
                   <div className="mt-4 p-3 bg-green-100 text-green-800 rounded-lg">
                     Message sent successfully!
                   </div>
-                )}
+                )} */}
                 
-                {submitStatus === 'error' && (
+                {/* {submitStatus === 'error' && (
                   <div className="mt-4 p-3 bg-red-100 text-red-800 rounded-lg">
                     Failed to send message. Please try again.
                   </div>
-                )}
+                )} */}
               </form>
             </GlassMorphicCard>
           </motion.div>
